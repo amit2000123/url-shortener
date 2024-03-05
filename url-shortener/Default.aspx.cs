@@ -23,7 +23,8 @@ namespace url_shortener
                 String HostName = Request.Url.Host;
                 String domainName = HttpContext.Current.Request.Url.GetLeftPart(UriPartial.Authority);
 
-                ShortLink = domainName + "/" + ShortLink;
+                ShortLink = domainName + "/api/redirect?shortLink=" + ShortLink;
+
                 data_place.InnerHtml = @"<div class='alert alert-success'><a href='" + ShortLink + "' target='blanc'>" + ShortLink + "</div>";
             }
             else

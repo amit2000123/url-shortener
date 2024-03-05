@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Redirect.aspx.cs" Inherits="url_shortener.Redirect" %>
+﻿<%--<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Redirect.aspx.cs" Inherits="url_shortener.Redirect" %>
 
 <!DOCTYPE html>
 
@@ -26,4 +26,4 @@
         </div>
     </form>
 </body>
-</html>
+</html>--%>
